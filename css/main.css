@@ -1,0 +1,226 @@
+@font-face {
+    font-family: Gotham-Bold;
+    src: url(/fonts/Gotham-Bold.otf);
+  }
+  
+  @font-face{
+      font-family: Gotham-Book;
+      src: url(/fonts/Gotham-Book.otf);
+  }
+  
+  @font-face{
+      font-family: Just-Skinny;
+      src: url(/fonts/Just-Skinny.ttf);
+  }
+  body{
+      overflow-x: hidden;
+      margin: 0px;
+      padding: 0px;
+  }
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+    padding: 20px;
+    padding-top: 33px;
+    font-family: Gotham-Book;
+  }
+  
+  li a {
+      text-decoration: none;
+      color: #B9B9B9;
+  }
+  li a:hover{
+      color: #AC1881;
+  }
+  .logo{
+      display: inline-block;
+  }
+  ul li:first-child{
+      padding: 10px;
+      margin: 0px;
+  }
+  .logo h1{
+      float: left;
+      font-size: 30px;
+      padding: 0px;
+      margin-top: 14px;
+      margin-left: 7px;
+      font-family: "Gotham-Bold";
+      font-weight: 100;
+      color: #AC1881;
+      
+  }
+  .logo img{
+      float: left;
+      margin-left: 41px;
+  }
+  .empty{
+      margin-left: 120px;
+  }
+  .purple{
+      width: 68%;
+      position: absolute;
+      right: -24%;
+      top: -33%;
+  }
+  
+  .green{
+      top: 760px;
+      width: 85%;
+      position: relative;
+      left: -530px;
+  }
+  .yellow{
+      top: 100px;
+      left: 820px;
+      width: 68%;
+      position: relative;
+  }
+  .pink-circle{
+      width: 28%;
+      position: relative;
+      left: 100px;
+      bottom: 300px;
+  }
+  
+  .scater-shapes{
+      position: absolute;
+      width: 65%;
+      margin-top: 85px;
+      margin-left: 28px;
+  }
+  .banner{
+      width: 38%;
+      position: absolute;
+      margin-left: 120px;
+      top: 30.5%;
+  }
+  .banner h2{
+  font-family: Poppins;
+  font-size: 36px;
+  padding: 0px;
+  margin-bottom: 0px;
+  color: #AC1881;
+  }
+  .banner p{
+      font-family: Poppins;
+      margin: 0px;
+      padding-top: 0px;
+      color: #B9B9B9;
+      font-size: 15px;
+      line-height: 170%;
+      width: 95%;
+  }
+  .googleplay, .appstore { width: 220px; position: absolute; }
+  .appstore {
+      left: 250px;
+  }
+  .download{
+      position: absolute;
+      margin-top: 65px;
+  }
+  .arrows{
+      margin-top: 100px;
+  }
+  .left-arrow, .right-arrow{
+  width: 40%!important;
+  position: relative!important;
+  }
+  .left-arrow{
+      left: 30px!important;
+  }
+  .right-arrow{
+  left: 270px!important;
+  }
+  .cs{
+      font-family: Just-Skinny!important;
+      font-size: 76px!important;
+      position: relative;
+      top: 150px;
+      left: 100px;
+      color: #272727!important;
+  }
+  .small-circles{
+      width: 35%;
+      margin-left: 220px;
+      position: relative;
+      bottom: 120px;
+  }
+  footer{
+      height: 60px;
+      width: 100%;
+      margin: 0px!important;
+      padding: 0px!important;
+      background-color: #656565;
+      color:rgba(255, 255, 255, 0.5);
+      border-top-left-radius: 13px;
+      border-top-right-radius: 13px;
+      font-family: Poppins;
+      text-align: center;
+  }
+  
+  .yellow-text,.green-text,.pink-text{
+      font-size: 40px;
+      position: absolute;
+      font-family: Gotham-Bold;
+      
+  }
+  .green-text{
+      position: absolute;
+      left: 460px;
+      top: 840px;
+      z-index: 1;
+      color: white;
+      font-weight: 100;
+      width: 23%;
+      
+  }
+  .g{
+      color: #2BB0B0;
+  }
+  .lm-span{
+      margin-left: 75px;
+      color: white;
+  }
+  
+  .yellow-text{
+      position: absolute;
+      font-size: 60px;
+      margin-bottom: 100px;
+      color: #F8B900;
+      left: 550px;
+      top: 1620px;
+      font-weight: 100;
+  }
+  .y-c{
+      color: white;
+  }
+  .pink-text{
+      position: absolute;
+      z-index: 1;
+      font-size: 70px;
+      line-height: 100%;
+      width: 20%;
+      top: 1930px;
+      left: 230px;
+      font-weight: 100;
+      color: white;
+  }
+  .coming-soon-p{
+      position: absolute;
+      z-index: 1;
+      font-size: 70px;
+      font-family: Gotham-Bold;
+      left: 230px;
+      top: 2134px;
+      color: white;
+      
+  }
+  .p-c{
+      color: #DB3BB6;
+  }
